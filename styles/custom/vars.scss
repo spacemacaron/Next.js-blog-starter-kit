@@ -6,8 +6,10 @@
 
   --base-font-size: 1.125rem;
 
-  --primary-color: #636dff;
+  --primary-color: #daaa52;
   --primary-gradient-end-color: #8763ff;
+
+  --line-color: rgba(55, 53, 47, 0.1);
 
   --fg-color: rgb(55, 53, 47);
   --fg-color-0: rgba(55, 53, 47, 0.09);
@@ -20,7 +22,7 @@
   --fg-color-icon: var(--fg-color);
   --fg-color-lighten: #f8f9fa;
 
-  --bg-color: #f2f3f7;
+  --bg-color: #ffffff;
   --bg-color-0: rgba(135, 131, 120, 0.15);
   --bg-color-1: rgb(247, 246, 243);
   --bg-color-2: rgba(135, 131, 120, 0.15);
@@ -81,6 +83,8 @@
 
 // dark-mode vars
 .dark-mode {
+  --line-color: rgba(255, 255, 255, 0.1);
+
   --fg-color: rgba(255, 255, 255, 0.9);
   --fg-color-0: var(--fg-color);
   --fg-color-1: var(--fg-color);

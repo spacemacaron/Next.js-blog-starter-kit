@@ -1,10 +1,10 @@
 @import './vars.scss';
 @import './notion-blocks.scss';
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1500px) {
   :root {
-    --notion-page-left-right-padding: 5vw;
-    --notion-page-fullwith-left-right-padding: 5vw;
+    --notion-page-left-right-padding: 8vw;
+    --notion-page-fullwith-left-right-padding: 8vw;
   }
 }
 
@@ -12,6 +12,10 @@
   :root {
     --base-font-size: 0.95rem;
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .dark-mode {
@@ -117,11 +121,17 @@ body {
   }
 
   // main page style
-  .indexPage {
+  .indexPage:not(.dark-mode) {
+    --bg-color: #f2f3f7;
+
     .notion-nav-header {
       & > .breadcrumbs:first-child {
         visibility: hidden;
       }
+    }
+
+    .notion-aside {
+      display: none;
     }
   }
 
@@ -137,28 +147,4 @@ body {
       border-radius: 0;
     }
   }
-
-  // // main page - right top fixed button
-  // .fixedDarkMode {
-  //   position: fixed;
-  //   right: 20px;
-  //   top: 20px;
-  //   z-index: 999;
-
-  //   .button {
-  //     width: 40px;
-  //     height: 40px;
-  //     border-radius: 5px;
-  //     color: var(--fg-color);
-  //     display: flex;
-  //     justify-content: center;
-  //     align-items: center;
-  //     cursor: pointer;
-  //     transition: background 120ms;
-
-  //     &:hover {
-  //       background-color: var(--bg-color-0);
-  //     }
-  //   }
-  // }
 }
