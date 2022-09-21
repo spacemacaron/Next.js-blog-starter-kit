@@ -51,20 +51,18 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   navigationStyle: 'custom',
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  navigationLinks: [
+    {
+      title: '카테고리',
+      pageId: '36400db511474331b5c1de6918212469',
+    },
+  ],
 
   // -------- custom configs (2skydev) -------------
 
   // date-fns format string
   dateformat: 'yyyy년 MM월 dd일',
+
+  // post page - hidden properties
+  hiddenPostProperties: ['설명'],
 });
