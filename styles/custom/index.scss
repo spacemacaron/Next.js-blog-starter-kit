@@ -121,9 +121,7 @@ body {
   }
 
   // main page style
-  .indexPage:not(.dark-mode) {
-    --bg-color: #f2f3f7;
-
+  .indexPage {
     .notion-nav-header {
       & > .breadcrumbs:first-child {
         visibility: hidden;
@@ -133,6 +131,11 @@ body {
     .notion-aside {
       display: none;
     }
+  }
+
+  // no darkmode index page background color
+  &:not(.dark-mode) .indexPage {
+    --bg-color: #f2f3f7;
   }
 
   // no main page style
