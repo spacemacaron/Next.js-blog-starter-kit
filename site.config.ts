@@ -65,4 +65,10 @@ export default siteConfig({
 
   // post page - hidden properties
   hiddenPostProperties: ['설명'],
+
+  // default theme color
+  defaultTheme: 'dark',
+
+  // enable comment
+  enableComment: true,
 });

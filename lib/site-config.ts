@@ -36,6 +36,8 @@ export interface SiteConfig {
   // custom configs (2skydev)
   dateformat: string;
   hiddenPostProperties: string[];
+  defaultTheme: 'light' | 'dark' | 'system';
+  enableComment: boolean;
 }
 
 export interface NavigationLink {
