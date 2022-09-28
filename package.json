@@ -13,6 +13,11 @@
       "email": "wmsttks@gmail.com",
       "name": "yoonjihong",
       "url": "https://github.com/yoonjihong"
+    },
+    {
+      "email": "webd200@gmail.com",
+      "name": "jong-hui",
+      "url": "https://github.com/jong-hui"
     }
   ],
   "repository": "2skydev/blog",
@@ -56,6 +61,7 @@
     "lqip-modern": "^1.2.0",
     "next": "12.3.0",
     "next-api-og-image": "^2.2.1",
+    "nextjs-google-analytics": "^2.1.0",
     "node-fetch": "^2.6.1",
     "p-map": "^5.3.0",
     "p-memoize": "^6.0.1",
