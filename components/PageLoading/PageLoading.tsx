@@ -1,6 +1,8 @@
 import * as React from 'react';
-import { Router, useRouter } from 'next/router';
 import { useEffect } from 'react';
+
+import { Router, useRouter } from 'next/router';
+
 import cs from 'classnames';
 
 const PageLoading = () => {
