@@ -31,7 +31,9 @@ Please understand that the code and explanation are mainly written in Korean. �
 노션의 내용을 기반으로 블로그가 생성되는 방식이니 실제로는 노션이 어떻게 구성되어있는지 궁금하신가요?<br/>
 아래 링크를 통해 이 블로그의 노션 구성을 확인하실 수 있습니다!
 
-[2skydev의 노션 링크](https://www.notion.so/2skydev-blog-d1e89e9e42eb4ebf9486ae0374039efc)
+**현재 운영중인 블로그 노션 페이지 (템플릿 복제 허용 X)**
+
+[2skydev blog 노션 링크](https://www.notion.so/2skydev-blog-d1e89e9e42eb4ebf9486ae0374039efc)
 
 <br/>
 
@@ -70,6 +72,9 @@ Please understand that the code and explanation are mainly written in Korean. �
 레포 클론 후 `site.config.ts` 만 수정하시면 바로 이용하실 수 있습니다.<br/>
 아래 단계들을 따라와주세요 :)
 
+> ❗️ 노션의 `복제` 기능을 사용시 이상하게 불러와지는 현상이 있습니다.<br/>
+> 블로그로 사용하는 노션 페이지는 `복제`된 페이지가 아닌 직접 페이지를 만들어야합니다.
+
 ### 1. 커스텀한 소스 클론하기
 
 커스텀된 소스는 아래 링크를 확인해주세요.<br/>
@@ -83,7 +88,7 @@ Please understand that the code and explanation are mainly written in Korean. �
 
 [GitHub - transitive-bullshit/nextjs-notion-starter-kit - setup](https://github.com/transitive-bullshit/nextjs-notion-starter-kit#setup)
 
-더 자세한 문서는 아래 링크를 확인해주세요.
+더 자세한 문서는 아래 링크를 확인해주세요. 이 문서에서 `시작하기` 부분을 확인해주세요 :)
 
 [Github Wiki - 2skydev/blog](https://github.com/2skydev/blog/wiki)
 
