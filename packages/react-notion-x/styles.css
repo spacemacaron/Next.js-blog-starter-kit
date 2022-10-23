@@ -119,7 +119,7 @@
 }
 
 .notion > * {
-  padding: 3px 0;
+  padding: 0; /*원래3px 0 이었음*/
 }
 
 .notion * {
