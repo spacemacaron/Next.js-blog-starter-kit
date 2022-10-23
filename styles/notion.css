@@ -336,7 +336,7 @@
 
 .notion-header {
   background: transparent;
-  backdrop-filter: blur(8px);
+  backdrop-filter: transparent;
 }
 
 .dark-mode .notion-header {
